@@ -4,7 +4,7 @@ import './ShiftSurvey.css'
 
 function ShiftSurvey() {
   //const API_URL = "http://127.0.0.1:5000"
-  const API_URL = "myinventory-production.up.railway.app";
+  const API_URL = "https://myinventory-production.up.railway.app";
   const navigate = useNavigate()
   const userName = localStorage.getItem('userName')
   

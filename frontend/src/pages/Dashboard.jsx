@@ -6,8 +6,8 @@ function Dashboard() {
 
   //const API_URL = "https://stemnetics.pythonanywhere.com";
   //const API_URL = "http://127.0.0.1:5000";
-  const API_URL = "myinventory-production.up.railway.app";
-  
+  const API_URL = "https://myinventory-production.up.railway.app";
+
   const [items, setItems] = useState([])
   const [loading, setLoading] = useState(true)
   const [stats, setStats] = useState(null)

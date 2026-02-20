@@ -11,7 +11,7 @@ load_dotenv()
 app = Flask(__name__)
 app.config.from_object(Config)
 
-CORS(app, origins=["*"])
+CORS(app, origins=["https://myinventory-ten.vercel.app"])
 
 @app.route('/')
 def home():
