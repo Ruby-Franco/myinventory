@@ -4,7 +4,8 @@ import { useNavigate } from 'react-router-dom'
 function Login() {
 
   //const API_URL = "https://stemnetics.pythonanywhere.com";
-  const API_URL = "http://127.0.0.1:5000";
+  //const API_URL = "http://127.0.0.1:5000";
+  const API_URL = "myinventory-production.up.railway.app";
   const [instructorName, setInstructorName] = useState('')
   const [adminUsername, setAdminUsername] = useState('')
   const [adminPassword, setAdminPassword] = useState('')
